@@ -16,7 +16,7 @@ public class Main {
         bot.start();*/
 
         //With Sharding
-        ShardedDiscordAccountBuilder botBuilder = new ShardedDiscordAccountBuilder("OTQ3NDA2NjA0MTkyNTg3Nzg3.GbV96u.hR-WtXH5LKyBg3BJDA7fdV6LQOErw7k_noEvwc", DiscordAccountType.BOT, true, 0);
+        ShardedDiscordAccountBuilder botBuilder = new ShardedDiscordAccountBuilder("TOKEN", DiscordAccountType.BOT, true, 0);
         botBuilder.addIntents(DiscordIntent.getAll());
         botBuilder.setLogging(true);
         botBuilder.setEventListener(new EventListener());
